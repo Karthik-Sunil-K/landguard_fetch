@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New JavaScript Trial</title>
+    <script src="JSON.js" async></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" />
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+
+</head>
+
+<body >
+    <div class='container1'>
+        <h2>LandGuard</h2>
+        <div class="statement">
+            <!-- <h3>Aleena Thomas, Joseph K Thomas, Karthik Sunil, Zainuddeen Abdul Muiz</h3>
+            <h3>Dhoulath Beegum J, Lubaib P</h3>
+
+            <h3> of Electronics and Communication Engineering,TKM College of Engineering Kollam
+            </h3> -->
+            <h4> The Real time Landslide monitor</h4>
+        </div>
+        <div>
+            <button id="btn" class="btn-click .mt-" style="margin-top: 15px;">Check Current Alert State</button>
+        </div>
+     
+        <div class="container">
+         <div class="row mx-auto mt-4">
+
+            <div class="col-md-6 mx-auto">
+
+                <div class="card-group rounded">
+                    <div class="card">
+                      <div class="card-body">
+                        <h5 class="card-title">Temperature</h5>
+                        <div class='advice1'></div>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <div class="card-body">
+                        <h5 class="card-title">Vibration</h5>
+                        <div class='advice3'></div>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <div class="card-body">
+                        <h5 class="card-title">Soil Moisture</h5>
+                        <div class='advice4'></div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+         </div>
+        </div>
+    </div>
+
+
+ <div class="row w-100 mx-auto">
+ <div class="col-md-3 mx-auto text-center">
+    <div class="alertcontent text-center">
+        <div class="alerttext">
+<h4>
+    Probability below 25%
+
+</h4>
+        </div>
+        <div class="alertbox">
+
+        </div>
+    </div>
+ </div>
+ <div class="col-md-3 mx-auto text-center">
+    <div class="alertcontent text-center">
+        <div class="alerttext">
+<h4>
+    Probaiblity below 40%
+
+</h4>
+        </div>
+        <div class="alertbox2">
+
+        </div>
+    </div>
+ </div>
+ <div class="col-md-3 mx-auto text-center">
+    <div class="alertcontent text-center">
+        <div class="alerttext">
+<h4>
+    Probability below 60%
+
+</h4>
+        </div>
+        <div class="alertbox4">
+
+        </div>
+    </div>
+ </div>
+ </div>
+
+    <div class="row w-100 row justify-content-evenly alert-fields">
+        <div class="col-md-5 mx-auto text-center">
+           <div class="alertcontent text-center">
+               <div class="alerttext">
+       <h4>
+           Probability below 80%
+       
+       </h4>
+               </div>
+               <div class="alertbox5">
+       
+               </div>
+           </div>
+        </div>
+        <div class="col-md-5  text-center">
+            <div class="alertcontent text-center">
+                <div class="alerttext">
+        <h4>
+            Probability above 80%
+        
+        </h4>
+                </div>
+                <div class="alertbox3">
+        
+                </div>
+            </div>
+         </div>
+        </div>
+    <div class="row w-100 mx-auto">
+        <div>
+            <button id="btn-send-message" style = "display: block;" class="btn-send-message mx-auto" style="margin-top: 15px;" onclick="sendMessage()">Send Alert Message</button>
+        </div>
+        
+        </div>
+ <div class="row mx-auto mt-4">
+    <div class="col-md-12 mx-auto text-center">
+        <div class="advice5">
+        
+        </div>
+
+    </div>
+ </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+
+<script>
+    setInterval(() => {
+        console.log("SHahsjd");
+        document.getElementById("btn").click();
+    }, 2000)
+</script>
+
+</html>
